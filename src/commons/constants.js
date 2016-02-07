@@ -13,7 +13,7 @@ const path = require('path')
 
 const constants = {
 	paths: {
-
+		palettes: path.resolve(path.join(__dirname, '../..', 'palettes/'))
 	},
 	options: {
 
@@ -21,13 +21,36 @@ const constants = {
 	regex: {
 
 		// get foobar from [[foobar]]
-		nameLine:     /\[\[([^\[]+)\]\]/,
+		nameLine:     /\[\[	([^\[]+)\]\]/,
 
 		// get foo, bar from '   foo = bar'
 		keyValuePair: /[\s\t]{4}([^\s\t=]+)[\s\t]*=[\s\t]*(.+)/
 
 	}
 }
+
+
+
+
+fs
+.readdirSync(constants.paths.palettes)
+.forEach(fpath => {
+
+	const names = {
+		file:   fpath,
+		scheme: fpath.replace(/[\s\t]/, '').replace(/[.]config$/, '')
+	}
+
+	names.scheme = names.scheme.charAt(0).toLowerCase( ) + names.scheme.slice(1)
+	names.option = `--${names.scheme}`
+
+	constants.options[names.option] = {
+		fileName:   names.file,
+		schemeName: names.scheme
+	}
+
+})
+
 
 
 

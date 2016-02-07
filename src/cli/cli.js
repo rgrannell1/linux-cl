@@ -35,3 +35,10 @@ ${optionDocs}
 
 
 const docopt = require('docopt').docopt
+const parseSchemas = require('../app/parse-schemas')
+
+
+
+
+
+console.log(parseSchemas('palettes'))
