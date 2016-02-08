@@ -41,4 +41,14 @@ const parseSchemas = require('../app/parse-schemas')
 
 
 
-console.log(parseSchemas('palettes'))
+const schemas = parseSchemas('palettes')
+
+console.log(
+
+	schemas.map(schema => {
+
+		return schema.name
+
+	})
+
+)

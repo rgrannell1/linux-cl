@@ -3,9 +3,13 @@
 
 
 
+
+
+const path      = require('path')
+const fs        = require('fs')
+
 const constants = require('../commons/constants')
-const path = require('path')
-const fs   = require('fs')
+const commons   = require('../commons/commons')
 
 
 
@@ -20,7 +24,7 @@ const parseScheme= content => {
 
 		if (line.charAt(0) === '[') {
 
-			parsed.name = line.replace(/\[|\]/g, '').replace(/[\s\t]/, '')
+			parsed.name = commons.normaliseName(line.replace(/\[|\]/g, ''))
 
 		} else if (/=/.test(line)) {
 
@@ -70,6 +74,7 @@ const parseSchemes = fpath => {
 	})
 
 }
+
 
 
 

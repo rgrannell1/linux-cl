@@ -5,8 +5,11 @@
 
 
 
-const fs   = require('fs')
-const path = require('path')
+const fs      = require('fs')
+const path    = require('path')
+
+const commons = require('../commons/commons')
+
 
 
 
@@ -38,7 +41,7 @@ fs
 
 	const names = {
 		file:   fpath,
-		scheme: fpath.replace(/[\s\t]/, '').replace(/[.]config$/, '')
+		scheme: commons.normaliseName(fpath.replace(/[.]config$/, ''))
 	}
 
 	names.scheme = names.scheme.charAt(0).toLowerCase( ) + names.scheme.slice(1)
