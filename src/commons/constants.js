@@ -29,6 +29,24 @@ const constants = {
 		// get foo, bar from '   foo = bar'
 		keyValuePair: /[\s\t]{4}([^\s\t=]+)[\s\t]*=[\s\t]*(.+)/
 
+	},
+	colourCodes: {
+		black:       'P0',
+		darkgrey:    'P8',
+		darkred:     'P1',
+		red:         'P9',
+		darkgreen:   'P2',
+		green:       'PA',
+		brown:       'P3',
+		yellow:      'PB',
+		darkblue:    'P4',
+		blue:        'PC',
+		darkmagenta: 'P5',
+		magenta:     'PD',
+		darkcyan:    'P6',
+		cyan:        'PE',
+		lightgrey:   'P7',
+		white:       'PF'
 	}
 }
 
