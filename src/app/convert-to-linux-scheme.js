@@ -36,10 +36,12 @@ const convertToLinuxScheme = scheme => {
 
 	var lines = [ ]
 
-	Object.keys(scheme).forEach(code => {
+	const colours = scheme.colours
+
+	Object.keys(colours).forEach(code => {
 
 		const colourCode = parseInt(code, 10).toString(16).toUpperCase( )
-		const hexCode    = scheme[code].replace('#', '')
+		const hexCode    = colours[code].replace('#', '').toUpperCase( )
 
 		lines.push(`echo -en "\\e]P${colourCode}${hexCode}"`)
 

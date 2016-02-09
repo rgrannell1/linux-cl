@@ -41,7 +41,7 @@ fs
 
 	const names = {
 		file:   fpath,
-		scheme: commons.normaliseName(fpath.replace(/[.]config$/, ''))
+		scheme: commons.normaliseName(fpath.replace(/[.]xrdb$/, ''))
 	}
 
 	names.scheme = names.scheme.charAt(0).toLowerCase( ) + names.scheme.slice(1)

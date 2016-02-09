@@ -44,19 +44,19 @@ const parseScheme= content => {
 
 const parseSchemes = fpath => {
 
-	const fpaths = Object.keys(constants.options).map(option => {
+	return Object.keys(constants.options).map(option => {
 
-		const names = constants.options[option]
-		return path.resolve(path.join(fpath, names.fileName))
-
-	})
-
-	return fpaths.map(fpath => {
+		const names        = constants.options[option]
+		const resolvedPath = path.resolve(path.join(fpath, names.fileName))
 
 		try {
 
-			fs.accessSync(fpath)
-			return parseScheme(fs.readFileSync(fpath).toString( ))
+			fs.accessSync(resolvedPath)
+
+			return {
+				schemeName: names.schemeName,
+				colours:    parseScheme(fs.readFileSync(resolvedPath).toString( ))
+			}
 
 		} catch (err) {
 
