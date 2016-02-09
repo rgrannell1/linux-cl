@@ -32,25 +32,20 @@ const constants = require('../commons/constants')
 
 
 
-const asEscapeColourCode = { }
-
-Object.keys(constants.colourCodes).forEach(colour => {
-
-	asEscapeColourCode[colour] = hex => {
-		return `\e]${constants.colourCodes[colour]}${hex}`
-	}
-
-})
-
-
-
-
-
 const convertToLinuxScheme = scheme => {
 
-	return {
+	var lines = [ ]
 
-	}
+	Object.keys(scheme).forEach(code => {
+
+		const colourCode = parseInt(code, 10).toString(16).toUpperCase( )
+		const hexCode    = scheme[code].replace('#', '')
+
+		lines.push(`echo -en "\\e]P${colourCode}${hexCode}"`)
+
+	})
+
+	return lines.concat('clear').join('\n')
 
 }
 

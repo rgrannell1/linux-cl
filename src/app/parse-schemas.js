@@ -20,23 +20,16 @@ const parseScheme= content => {
 	const parsed = { }
 	const lines  = content.split('\n')
 
+	const ansiiCodeRegexp = /Ansi_([0-9]+)_Color/
+	const hexRegex        = /#[0-9a-f]{6}/
+
 	lines.forEach(line => {
 
-		if (line.charAt(0) === '[') {
+		const colourNumber = line.match(ansiiCodeRegexp)
+		const hexCode      = line.match(hexRegex)
 
-			parsed.name = commons.normaliseName(line.replace(/\[|\]/g, ''))
-
-		} else if (/=/.test(line)) {
-
-			const parts = line.split('=')
-
-			const key   = parts[0].trim( )
-			const val   = parts[1].trim( ).replace(/["']/g, '').split(':').filter(code => {
-				return code.charAt(0) === '#'
-			})
-
-			parsed[key] = val
-
+		if (colourNumber && hexCode) {
+			parsed[colourNumber[1]] = hexCode[0]
 		}
 
 	})
