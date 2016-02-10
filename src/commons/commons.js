@@ -36,7 +36,9 @@ commons.normaliseName = name => {
 
 				appended = '-'
 
-			} else if (lastLowerCase && char === char.toUpperCase( )) {
+			} else if (lastLowerCase && char !== char.toLowerCase( )) {
+
+				// if the last char was lowerser case, and the current isn't, add a dash if there isn't one already.
 
 				appended = chars.slice(-1)[0] === '-'
 					? char.toLowerCase( )

@@ -5,7 +5,7 @@
 
 
 
-const exec                 = require('child_process').exec
+const childProcess         = require('child_process')
 
 const constants            = require('../commons/constants')
 const parseSchemes         = require('../app/parse-schemes')
@@ -26,7 +26,6 @@ const setScheme = args => {
 	})[0]
 
 	const script = convertToLinuxScheme(scheme)
-
 	console.log(script)
 
 }
