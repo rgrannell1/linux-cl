@@ -1,0 +1,42 @@
+{
+  "name": "linux-cl",
+  "version": "0.1.0",
+  "description": "command-line wrapper for iterm2 colour palettes.",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Ryan Grannell",
+      "email": "r.grannell@gmail.com"
+    }
+  ],
+  "main": "src/cli/cli.js",
+  "scripts": {
+    "postinstall": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgrannell1/linux-cl.git"
+  },
+  "bin": {
+    "linux-cl": "src/cli/cli.js"
+  },
+  "author": "Ryan Grannell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgrannell1/linux-cl/issues"
+  },
+  "homepage": "https://github.com/rgrannell1/linux-cl#readme",
+
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta8",
+    "babel-polyfill": "^6.3.14",
+    "eslint": "^1.10.3"
+  },
+
+  "dependencies": {
+    "docopt": "^0.6.2"
+  }
+}
