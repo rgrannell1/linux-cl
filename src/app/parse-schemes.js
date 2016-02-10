@@ -15,7 +15,7 @@ const commons   = require('../commons/commons')
 
 
 
-const parseScheme= content => {
+const parseScheme = content => {
 
 	const parsed = { }
 	const lines  = content.split('\n')
@@ -54,6 +54,7 @@ const parseSchemes = fpath => {
 			fs.accessSync(resolvedPath)
 
 			return {
+				fpath:      resolvedPath,
 				schemeName: names.schemeName,
 				colours:    parseScheme(fs.readFileSync(resolvedPath).toString( ))
 			}

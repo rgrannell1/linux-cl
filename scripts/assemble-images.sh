@@ -1,2 +1,3 @@
 
-montage $(find images -name linux-*.png -print | sort) -mode concatenate -background '#FFFFFF' images/assembled.png
+montage "$(find images -name *.png -printf '%p\0' | sort)" -mode concatenate -background '#FFFFFF' assembled.png
+

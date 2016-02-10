@@ -8,30 +8,26 @@ function example {
 
 
 
-
-OIFS="$IFS"
-IFS=$'\n'
-
-for file in $( ls palettes )
+while read pair
 do
 
-	option=--$(echo "$file" | sed 's/^linux-//' | sed 's/[.]sh//' )
-	outpath=$(echo $file | sed 's/[.]sh/.png/')
+	file=$(echo "$pair"   | cut -d '|' -f 1)
+	option=$(echo "$pair" | cut -d '|' -f 2)
+
+	outpath=$(basename "$file" | sed 's/[.]xrdb/.png/')
 
 	# thank you, terrible bash security!! (this is why '--' exists!)
-	guake-cl $option #| bash
+	guake-cl "$option" | bash
 
-	#clear
+	clear
 	echo "$option"
 	printf "\n\n"
 
 	example
 
 	sleep 1.5
-	gnome-screenshot --file=images/$outpath
-	convert -crop 300x200+0+30 images/$outpath images/$outpath
 
+	sudo fbgrab images/"$outpath"
+	sudo convert -crop 300x200+0+0 images/"$outpath" images/"$outpath"
 
-done
-
-IFS="$OIFS"
+done < file-mapping.txt
