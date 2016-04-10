@@ -23,10 +23,13 @@ Name:
 	linux-cl - Command line bindings for changing Linux terminal colour schemes.
 Usage:
 	linux-cl (${schemeOptions})
+	linux-cl (-r | --random)
 	linux-cl (-h | --help | --version)
 
 Options:
-	-h, --help    Display this documentation
+	-h, --help      Display this documentation
+	-r, --random    Choose a random colour scheme.
+	--version       Display the program's version.
 ${optionDocs}
 `
 

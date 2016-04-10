@@ -29,8 +29,10 @@ const constants = {
 		// get foo, bar from '   foo = bar'
 		keyValuePair: /[\s\t]{4}([^\s\t=]+)[\s\t]*=[\s\t]*(.+)/
 
-	}
+	},
+	package: require('../../package')
 }
+
 
 
 
