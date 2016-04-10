@@ -1,5 +1,5 @@
-/home/ryan/Code/linux-cl/palettes/3024 Day.xrdb|--3024-day
-/home/ryan/Code/linux-cl/palettes/3024 Night.xrdb|--3024-night
+/home/ryan/Code/linux-cl/palettes/3024Day.xrdb|--3024-day
+/home/ryan/Code/linux-cl/palettes/3024Night.xrdb|--3024-night
 /home/ryan/Code/linux-cl/palettes/AdventureTime.xrdb|--adventure-time
 /home/ryan/Code/linux-cl/palettes/Afterglow.xrdb|--afterglow
 /home/ryan/Code/linux-cl/palettes/AlienBlood.xrdb|--alien-blood
@@ -9,12 +9,12 @@
 /home/ryan/Code/linux-cl/palettes/Atom.xrdb|--atom
 /home/ryan/Code/linux-cl/palettes/AtomOneLight.xrdb|--atom-one-light
 /home/ryan/Code/linux-cl/palettes/Batman.xrdb|--batman
-/home/ryan/Code/linux-cl/palettes/Belafonte Day.xrdb|--belafonte-day
-/home/ryan/Code/linux-cl/palettes/Belafonte Night.xrdb|--belafonte-night
+/home/ryan/Code/linux-cl/palettes/BelafonteDay.xrdb|--belafonte-day
+/home/ryan/Code/linux-cl/palettes/BelafonteNight.xrdb|--belafonte-night
 /home/ryan/Code/linux-cl/palettes/BirdsOfParadise.xrdb|--birds-of-paradise
 /home/ryan/Code/linux-cl/palettes/Blazer.xrdb|--blazer
 /home/ryan/Code/linux-cl/palettes/Borland.xrdb|--borland
-/home/ryan/Code/linux-cl/palettes/Bright Lights.xrdb|--bright-lights
+/home/ryan/Code/linux-cl/palettes/BrightLights.xrdb|--bright-lights
 /home/ryan/Code/linux-cl/palettes/Broadcast.xrdb|--broadcast
 /home/ryan/Code/linux-cl/palettes/Brogrammer.xrdb|--brogrammer
 /home/ryan/Code/linux-cl/palettes/C64.xrdb|--c64
@@ -22,21 +22,21 @@
 /home/ryan/Code/linux-cl/palettes/Chalk.xrdb|--chalk
 /home/ryan/Code/linux-cl/palettes/Chalkboard.xrdb|--chalkboard
 /home/ryan/Code/linux-cl/palettes/Ciapre.xrdb|--ciapre
-/home/ryan/Code/linux-cl/palettes/Cobalt Neon.xrdb|--cobalt-neon
 /home/ryan/Code/linux-cl/palettes/Cobalt2.xrdb|--cobalt2
+/home/ryan/Code/linux-cl/palettes/CobaltNeon.xrdb|--cobalt-neon
 /home/ryan/Code/linux-cl/palettes/CrayonPonyFish.xrdb|--crayon-pony-fish
-/home/ryan/Code/linux-cl/palettes/Dark Pastel.xrdb|--dark-pastel
+/home/ryan/Code/linux-cl/palettes/DarkPastel.xrdb|--dark-pastel
 /home/ryan/Code/linux-cl/palettes/Darkside.xrdb|--darkside
 /home/ryan/Code/linux-cl/palettes/Desert.xrdb|--desert
 /home/ryan/Code/linux-cl/palettes/DimmedMonokai.xrdb|--dimmed-monokai
 /home/ryan/Code/linux-cl/palettes/DotGov.xrdb|--dot-gov
 /home/ryan/Code/linux-cl/palettes/Dracula.xrdb|--dracula
-/home/ryan/Code/linux-cl/palettes/Duotone Dark.xrdb|--duotone-dark
+/home/ryan/Code/linux-cl/palettes/DuotoneDark.xrdb|--duotone-dark
 /home/ryan/Code/linux-cl/palettes/ENCOM.xrdb|--encom
 /home/ryan/Code/linux-cl/palettes/Earthsong.xrdb|--earthsong
 /home/ryan/Code/linux-cl/palettes/Elemental.xrdb|--elemental
-/home/ryan/Code/linux-cl/palettes/Espresso Libre.xrdb|--espresso-libre
 /home/ryan/Code/linux-cl/palettes/Espresso.xrdb|--espresso
+/home/ryan/Code/linux-cl/palettes/EspressoLibre.xrdb|--espresso-libre
 /home/ryan/Code/linux-cl/palettes/Fideloper.xrdb|--fideloper
 /home/ryan/Code/linux-cl/palettes/FishTank.xrdb|--fish-tank
 /home/ryan/Code/linux-cl/palettes/Flat.xrdb|--flat
@@ -62,7 +62,7 @@
 /home/ryan/Code/linux-cl/palettes/Japanesque.xrdb|--japanesque
 /home/ryan/Code/linux-cl/palettes/Jellybeans.xrdb|--jellybeans
 /home/ryan/Code/linux-cl/palettes/Kibble.xrdb|--kibble
-/home/ryan/Code/linux-cl/palettes/Later This Evening.xrdb|--later-this-evening
+/home/ryan/Code/linux-cl/palettes/LaterThisEvening.xrdb|--later-this-evening
 /home/ryan/Code/linux-cl/palettes/Lavandula.xrdb|--lavandula
 /home/ryan/Code/linux-cl/palettes/LiquidCarbon.xrdb|--liquid-carbon
 /home/ryan/Code/linux-cl/palettes/LiquidCarbonTransparent.xrdb|--liquid-carbon-transparent
@@ -75,43 +75,43 @@
 /home/ryan/Code/linux-cl/palettes/Misterioso.xrdb|--misterioso
 /home/ryan/Code/linux-cl/palettes/Molokai.xrdb|--molokai
 /home/ryan/Code/linux-cl/palettes/MonaLisa.xrdb|--mona-lisa
-/home/ryan/Code/linux-cl/palettes/Monokai Soda.xrdb|--monokai-soda
+/home/ryan/Code/linux-cl/palettes/MonokaiSoda.xrdb|--monokai-soda
 /home/ryan/Code/linux-cl/palettes/N0tch2k.xrdb|--n0tch2k
 /home/ryan/Code/linux-cl/palettes/Neopolitan.xrdb|--neopolitan
 /home/ryan/Code/linux-cl/palettes/Neutron.xrdb|--neutron
-/home/ryan/Code/linux-cl/palettes/NightLion v1.xrdb|--night-lion-v1
-/home/ryan/Code/linux-cl/palettes/NightLion v2.xrdb|--night-lion-v2
+/home/ryan/Code/linux-cl/palettes/NightLionv1.xrdb|--night-lionv1
+/home/ryan/Code/linux-cl/palettes/NightLionv2.xrdb|--night-lionv2
 /home/ryan/Code/linux-cl/palettes/Novel.xrdb|--novel
 /home/ryan/Code/linux-cl/palettes/Obsidian.xrdb|--obsidian
 /home/ryan/Code/linux-cl/palettes/Ocean.xrdb|--ocean
 /home/ryan/Code/linux-cl/palettes/OceanicMaterial.xrdb|--oceanic-material
 /home/ryan/Code/linux-cl/palettes/Ollie.xrdb|--ollie
-/home/ryan/Code/linux-cl/palettes/Paraiso Dark.xrdb|--paraiso-dark
-/home/ryan/Code/linux-cl/palettes/Parasio Dark.xrdb|--parasio-dark
+/home/ryan/Code/linux-cl/palettes/ParaisoDark.xrdb|--paraiso-dark
+/home/ryan/Code/linux-cl/palettes/ParasioDark.xrdb|--parasio-dark
 /home/ryan/Code/linux-cl/palettes/PaulMillr.xrdb|--paul-millr
 /home/ryan/Code/linux-cl/palettes/PencilDark.xrdb|--pencil-dark
 /home/ryan/Code/linux-cl/palettes/PencilLight.xrdb|--pencil-light
-/home/ryan/Code/linux-cl/palettes/Piatto Light.xrdb|--piatto-light
+/home/ryan/Code/linux-cl/palettes/PiattoLight.xrdb|--piatto-light
 /home/ryan/Code/linux-cl/palettes/Pnevma.xrdb|--pnevma
 /home/ryan/Code/linux-cl/palettes/Pro.xrdb|--pro
 /home/ryan/Code/linux-cl/palettes/Red Alert.xrdb|--red-alert
-/home/ryan/Code/linux-cl/palettes/Red Sands.xrdb|--red-sands
+/home/ryan/Code/linux-cl/palettes/RedSands.xrdb|--red-sands
 /home/ryan/Code/linux-cl/palettes/Rippedcasts.xrdb|--rippedcasts
 /home/ryan/Code/linux-cl/palettes/Royal.xrdb|--royal
 /home/ryan/Code/linux-cl/palettes/SeaShells.xrdb|--sea-shells
-/home/ryan/Code/linux-cl/palettes/Seafoam Pastel.xrdb|--seafoam-pastel
+/home/ryan/Code/linux-cl/palettes/SeafoamPastel.xrdb|--seafoam-pastel
 /home/ryan/Code/linux-cl/palettes/Seti.xrdb|--seti
 /home/ryan/Code/linux-cl/palettes/Shaman.xrdb|--shaman
 /home/ryan/Code/linux-cl/palettes/Slate.xrdb|--slate
 /home/ryan/Code/linux-cl/palettes/Smyck.xrdb|--smyck
 /home/ryan/Code/linux-cl/palettes/SoftServer.xrdb|--soft-server
-/home/ryan/Code/linux-cl/palettes/Solarized Darcula.xrdb|--solarized-darcula
-/home/ryan/Code/linux-cl/palettes/Solarized Dark Higher Contrast.xrdb|--solarized-dark-higher-contrast
-/home/ryan/Code/linux-cl/palettes/Solarized Dark.xrdb|--solarized-dark
-/home/ryan/Code/linux-cl/palettes/Solarized Light.xrdb|--solarized-light
-/home/ryan/Code/linux-cl/palettes/SpaceGray Eighties Dull.xrdb|--space-gray-eighties-dull
-/home/ryan/Code/linux-cl/palettes/SpaceGray Eighties.xrdb|--space-gray-eighties
+/home/ryan/Code/linux-cl/palettes/SolarizedDarcula.xrdb|--solarized-darcula
+/home/ryan/Code/linux-cl/palettes/SolarizedDark.xrdb|--solarized-dark
+/home/ryan/Code/linux-cl/palettes/SolarizedDarkHigherContrast.xrdb|--solarized-dark-higher-contrast
+/home/ryan/Code/linux-cl/palettes/SolarizedLight.xrdb|--solarized-light
 /home/ryan/Code/linux-cl/palettes/SpaceGray.xrdb|--space-gray
+/home/ryan/Code/linux-cl/palettes/SpaceGrayEighties Dull.xrdb|--space-gray-eighties-dull
+/home/ryan/Code/linux-cl/palettes/SpaceGrayEighties.xrdb|--space-gray-eighties
 /home/ryan/Code/linux-cl/palettes/Spacedust.xrdb|--spacedust
 /home/ryan/Code/linux-cl/palettes/Spiderman.xrdb|--spiderman
 /home/ryan/Code/linux-cl/palettes/Spring.xrdb|--spring
@@ -119,14 +119,14 @@
 /home/ryan/Code/linux-cl/palettes/Sundried.xrdb|--sundried
 /home/ryan/Code/linux-cl/palettes/Symfonic.xrdb|--symfonic
 /home/ryan/Code/linux-cl/palettes/Teerb.xrdb|--teerb
-/home/ryan/Code/linux-cl/palettes/Terminal Basic.xrdb|--terminal-basic
-/home/ryan/Code/linux-cl/palettes/Thayer Bright.xrdb|--thayer-bright
-/home/ryan/Code/linux-cl/palettes/The Hulk.xrdb|--the-hulk
-/home/ryan/Code/linux-cl/palettes/Tomorrow Night Blue.xrdb|--tomorrow-night-blue
-/home/ryan/Code/linux-cl/palettes/Tomorrow Night Bright.xrdb|--tomorrow-night-bright
-/home/ryan/Code/linux-cl/palettes/Tomorrow Night Eighties.xrdb|--tomorrow-night-eighties
-/home/ryan/Code/linux-cl/palettes/Tomorrow Night.xrdb|--tomorrow-night
+/home/ryan/Code/linux-cl/palettes/TerminalBasic.xrdb|--terminal-basic
+/home/ryan/Code/linux-cl/palettes/ThayerBright.xrdb|--thayer-bright
+/home/ryan/Code/linux-cl/palettes/TheHulk.xrdb|--the-hulk
 /home/ryan/Code/linux-cl/palettes/Tomorrow.xrdb|--tomorrow
+/home/ryan/Code/linux-cl/palettes/TomorrowNight Blue.xrdb|--tomorrow-night-blue
+/home/ryan/Code/linux-cl/palettes/TomorrowNight Bright.xrdb|--tomorrow-night-bright
+/home/ryan/Code/linux-cl/palettes/TomorrowNight Eighties.xrdb|--tomorrow-night-eighties
+/home/ryan/Code/linux-cl/palettes/TomorrowNight.xrdb|--tomorrow-night
 /home/ryan/Code/linux-cl/palettes/ToyChest.xrdb|--toy-chest
 /home/ryan/Code/linux-cl/palettes/Treehouse.xrdb|--treehouse
 /home/ryan/Code/linux-cl/palettes/Twilight.xrdb|--twilight

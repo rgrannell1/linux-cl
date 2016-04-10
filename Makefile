@@ -34,3 +34,7 @@ assemble-images:
 
 build-palettes:
 	bash scripts/build-schemes.sh
+
+clean:
+	rm -R images/
+	mkdir images

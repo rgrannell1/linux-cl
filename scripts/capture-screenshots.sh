@@ -31,3 +31,5 @@ do
 	sudo convert -crop 300x200+0+0 images/"$outpath" images/"$outpath"
 
 done < file-mapping.txt
+
+sudo chown $USER images/*
