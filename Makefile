@@ -10,9 +10,12 @@ ESLINT_FLAGS   = --config config/eslint.json
 
 
 
-install:
-	sudo cp linux-cl /etc/bash_completion.d/linux-cl
-	npm link && npm install --global
+install: snap
+	#sudo cp linux-cl /etc/bash_completion.d/linux-cl
+	cd snapcraft && snap install linux-cl* && cd ..
+
+snap:
+	cd snapcraft && snapcraft clean && snapcraft snap && cd ..
 
 docker-build:
 	$(DOCKER) build --tag=$(CONTAINER_NAME) .

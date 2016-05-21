@@ -1,0 +1,14 @@
+name:        linux-cl
+version:     v0.1.0
+summary:     change linux tty's colour scheme
+description: change linux tty's colour scheme
+
+apps:
+  linux-cl:
+    command: bin/linux-cl
+
+parts:
+  linux-cl:
+    plugin: nodejs
+    node-packages:
+      - rgrannell1/linux-cl
